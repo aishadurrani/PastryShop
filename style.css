@@ -1,0 +1,196 @@
+body {
+    font: 18px arial, sans-serif;
+    background: #eee;
+    background-image: url("cupcake4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom right;
+    background-size: 350px 350px;
+
+
+
+    
+}
+
+body backgound img {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.ribbon {
+ font-size: 22px !important;
+ font-family: "Comic Sans MS", cursive, sans-serif;
+
+ width: 50%;
+    
+ position: relative;
+ background: #FF69B4;
+ color: #fff;
+ text-align: center;
+ padding: 1em 2em; 
+ margin: 2em auto 3em; 
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+ border: 1.5em solid #FF1493;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #804f7c transparent transparent transparent;
+ bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}
+
+
+
+#sweets {
+    width: 70%;
+}
+.sweet-item {
+    float: left;
+    padding: 10px;
+}
+form {
+    width: 30%;
+    float: right;
+    padding: 20px;
+}
+label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 30px;
+    font-size: 18px;
+}
+button,
+
+input[type="submit"] {
+    background: #FF69B4;
+    color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 0 20px 10px 0;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px #bbb;
+}
+button:hover,
+input[type="submit"]:hover {
+    background: #DDA0DD;
+}
+button.active {
+    background: #DDA0DD;
+}
+
+
+
+
+
+.footer {
+   background-color: #FF69B4;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   height: 40px;
+   width: 100%;
+   text-align: center;
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        body {
+            font: 18px arial, sans-serif;
+            background: #eee;
+            background-image: url("cupcake8.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: bottom right;
+
+    
+    }
+        h1 {
+            font: 22px arial, sans-serif;
+        }
+
+        #sweetButtons {
+
+        }
+        button,
+
+        input[type="submit"] {
+            background: #FF69B4;
+            color: #ffffff;
+            border: 0;
+            border-radius: 5px;
+            padding: 5px 20px;
+            font-size: 18px;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            margin: 0 20px 10px 0;
+            cursor: pointer;
+            box-shadow: 2px 2px 3px #bbb;
+    }
+        button:hover,
+        input[type="submit"]:hover {
+            background: #DDA0DD;
+    }
+        button.active {
+            background: #DDA0DD;
+    }
+
+}
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}
+
+
