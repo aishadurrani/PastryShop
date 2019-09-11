@@ -71,7 +71,7 @@ body backgound img {
 
 
 #sweetButtons {
-    font-weight: 900;
+    font-weight: 700;
 
 }
 
@@ -116,9 +116,11 @@ input[type="submit"] {
 button:hover,
 input[type="submit"]:hover {
     background: #DDA0DD;
+    
 }
 button.active {
     background: #DDA0DD;
+    font-weight: 700;
 }
 
 
