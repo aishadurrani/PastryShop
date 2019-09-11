@@ -1,6 +1,4 @@
-
-
-$(document).ready(function() {
+$(function() {
     //do on page load
     populateButtons(sweets, 'sweetButton', '#sweetButtons');
 });
