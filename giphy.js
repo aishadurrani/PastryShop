@@ -1,10 +1,6 @@
-data; // ReferenceError: data is not defined 
-var data; 
-data; // No more errors
 
 
-
-$(function() {
+$(document).ready(function() {
     //do on page load
     populateButtons(sweets, 'sweetButton', '#sweetButtons');
 });
